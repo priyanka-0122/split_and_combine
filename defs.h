@@ -4,4 +4,9 @@
 #include <unistd.h>
 #include "decl.h"
 
-#define	SPLIT	0
+// main.c
+#define	SPLIT		0
+#define	COMBINE		1
+
+// merge.c
+#define BUFFER_SIZE	20
